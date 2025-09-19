@@ -3,7 +3,7 @@
 # =================================================================
 # Skrip Deployment Sederhana untuk Nginx di Fedora
 # Deskripsi:
-# Skrip ini menginstal Nginx, mengkonfigurasi firewall, membuat
+# Skrip ini menginstal Nginx, membuat
 # halaman web statis, dan memulai layanan Nginx.
 # =================================================================
 
@@ -19,7 +19,7 @@ echo "[INFO] Menjalankan dan mengaktifkan layanan Nginx..."
 sudo systemctl start nginx
 sudo systemctl enable nginx
 
-# 4. Membuat Halaman Web Statis
+# 3. Membuat Halaman Web Statis
 echo "[INFO] Membuat file index.html..."
 echo "Hello DevOps World!" | sudo tee /var/www/html/index.html
 
